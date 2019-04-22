@@ -7,7 +7,7 @@ import { Employee } from '../models/employee.model';
   styleUrls: ['./list-employees.component.css']
 })
 export class ListEmployeesComponent implements OnInit {
-employees:Employee[]=[
+employees: Employee[] = [
   {
     id: 1,
     name: 'Mark',
